@@ -1,0 +1,600 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"php",
+				"php"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"para",
+				"param2"
+			],
+			[
+				"chap",
+				"chapNum"
+			],
+			[
+				"cr",
+				"cr"
+			],
+			[
+				"url",
+				"urlopen"
+			],
+			[
+				"print",
+				"printChapters"
+			],
+			[
+				"th",
+				"thead	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 2086,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/registerPost.html",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dbPopulate.php",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/users.html",
+			"settings":
+			{
+				"buffer_size": 208,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/register.html",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/layout.html",
+			"settings":
+			{
+				"buffer_size": 882,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/index.html",
+			"settings":
+			{
+				"buffer_size": 76,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/hello.html",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/grunt.sublime-build",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 186.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Dev/wamp/www/Novus/views/login.html",
+		"/C/Dev/wamp/bin/apache/apache2.2.22/conf/httpd.conf",
+		"/C/Dev/wamp/www/Novus/composer.json",
+		"/C/Dev/wamp/www/Novus/.htaccess",
+		"/C/Dev/studarea/app/views/layouts/application.html.erb",
+		"/C/Dev/wamp/www/Novus/app/IndexController.php",
+		"/C/Dev/wamp/www/Novus/app/bootstrap.php",
+		"/C/Dev/wamp/www/Novus/vendor/autoload.php",
+		"/C/Dev/wamp/www/Novus/app/indexController.php",
+		"/C/Dev/wamp/www/Novus/web/index.php",
+		"/C/Dev/angular-phonecat/app/index.html",
+		"/C/Dev/angular-phonecat/app/js/controllers.js",
+		"/C/Dev/angular-phonecat/test/unit/controllersSpec.js",
+		"/C/Users/Akka/Desktop/OpéMerveille.txt",
+		"/C/Dev/studarea/app/views/courses/index.html.erb",
+		"/C/Dev/studarea/app/views/users/index.html.erb",
+		"/C/Dev/studarea/app/views/home/index.html.erb",
+		"/C/Dev/studarea/app/views/documents/index.html.erb",
+		"/C/Dev/studarea/app/views/calendars/show.html.erb",
+		"/C/Dev/studarea/app/views/events/index.html.erb",
+		"/C/Dev/studarea/app/views/documents/new.html.erb",
+		"/C/Dev/studarea/app/views/schools/index.html.erb",
+		"/C/Dev/studarea/app/assets/stylesheets/application.css",
+		"/C/Dev/studarea/app/assets/stylesheets/scaffolds.css.scss",
+		"/C/Dev/studarea/app/views/documents/_form.html.erb",
+		"/C/Dev/studarea/app/assets/stylesheets/type_uploads.css.scss",
+		"/C/Dev/studarea/app/assets/stylesheets/type_documents.css.scss",
+		"/C/Dev/studarea/app/assets/stylesheets/schools.css.scss",
+		"/C/Dev/studarea/app/assets/stylesheets/users.css.scss",
+		"/C/Dev/studarea/app/assets/stylesheets/documents.css.scss",
+		"/C/Dev/studarea/app/views/documents/show.html.erb",
+		"/C/Users/Akka/Desktop/studarea/branches/Damien/front/index.html",
+		"/C/Dev/OvrMind/demo_app/app/views/layouts/application.html.erb",
+		"/C/Dev/OvrMind/demo_app/app/views/static_pages/home.html.erb",
+		"/C/Dev/studarea/app/assets/stylesheets/home.css.scss",
+		"/C/Dev/studarea/app/assets/stylesheets/index.css",
+		"/C/Dev/OvrMind/demo_app/app/views/layouts/_footer.html.erb",
+		"/C/Dev/studarea/app/assets/stylesheets/calendar.css.scss",
+		"/C/Dev/studarea/config/database.yml",
+		"/C/Dev/OvrMind/demo_app/app/assets/stylesheets/application.css",
+		"/C/Dev/studarea/app/models/course.rb",
+		"/C/Dev/OvrMind/demo_app/app/models/user.rb",
+		"/C/Dev/OvrMind/demo_app/app/controllers/users_controller.rb",
+		"/C/Dev/OvrMind/demo_app/app/views/users/show.html.erb",
+		"/C/Dev/OvrMind/demo_app/app/helpers/users_helper.rb",
+		"/C/Dev/OvrMind/demo_app/app/models/micropost.rb",
+		"/C/Dev/OvrMind/demo_app/app/helpers/microposts_helper.rb",
+		"/C/Dev/OvrMind/demo_app/Gemfile.lock",
+		"/C/Dev/OvrMind/demo_app/config/routes.rb",
+		"/C/Dev/OvrMind/demo_app/config/application.rb",
+		"/C/Dev/OvrMind/demo_app/Gemfile",
+		"/C/Dev/OvrMind/demo_app/config/environment.rb",
+		"/C/Dev/OvrMind/demo_app/db/migrate/20121202063709_add_index_to_users_email.rb",
+		"/C/Dev/OvrMind/demo_app/db/migrate/20121202064020_add_password_digest_to_users.rb",
+		"/C/Dev/OvrMind/demo_app/app/views/users/new.html.erb",
+		"/C/Dev/OvrMind/demo_app/app/views/static_pages/contact.html.erb",
+		"/C/Dev/OvrMind/demo_app/app/controllers/static_pages_controller.rb",
+		"/C/Dev/OvrMind/demo_app/app/helpers/application_helper.rb",
+		"/C/Dev/OvrMind/demo_app/app/views/layouts/_header.html.erb",
+		"/C/Dev/OvrMind/demo_app/app/views/layouts/_shim.html.erb",
+		"/C/Dev/OvrMind/demo_app/app/views/static_pages/about.html.erb",
+		"/C/Dev/OvrMind/demo_app/app/views/static_pages/help.html.erb",
+		"/C/Dev/OvrMind/demo_app/app/assets/stylesheets/custom.css.scss",
+		"/C/Dev/OvrMind/OvrMind/Gemfile",
+		"/C/Dev/OvrMind/OvrMind/db/migrate/20121130153854_create_users.rb",
+		"/C/Dev/OvrMind/OvrMind/app/controllers/users_controller.rb",
+		"/C/Dev/OvrMind/OvrMind/app/models/user.rb",
+		"/C/Dev/angular/index.html",
+		"/C/Dev/angular/twitter.js",
+		"/C/Dev/OvrMind/OvrMind/app/views/layouts/application.html.erb",
+		"/C/Dev/OvrMind/OvrMind/config/routes.rb",
+		"/C/Dev/OvrMind/OvrMind/app/views/home/index.html.erb",
+		"/C/Dev/NodeWeb/main.js",
+		"/C/Dev/NodeWeb/README.md",
+		"/C/Users/Akka/AppData/Roaming/Sublime Text 2/Packages/User/grunt.sublime-build",
+		"/C/Users/Akka/Desktop/studarea/branches/Damien/front/app/Views/indexView.js",
+		"/C/Users/Akka/Desktop/studarea/branches/Damien/front/libs/keypress.js",
+		"/C/Users/Akka/Desktop/studarea/branches/Damien/front/front.sublime-workspace",
+		"/C/Users/Akka/Desktop/studarea/branches/Damien/front/front.sublime-project",
+		"/C/Users/Akka/Desktop/studarea/branches/Damien/front/grunt.js",
+		"/C/Users/Akka/Desktop/fb_custom.user.js",
+		"/C/Users/Akka/Desktop/studarea/branches/Damien/front/studarea_front.sublime-project",
+		"/C/Users/Akka/Desktop/Studarea_Front/css/index.css",
+		"/C/Users/Akka/Desktop/Studarea_Front/index.html",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/announcementsView.js",
+		"/C/Users/Akka/Desktop/blog.css",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Models/announcementsModel.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Models/stackModel.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/stackView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/classView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/coursesView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/documentsView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/forumView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/groupsView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/indexView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/loginView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/profileView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/registerView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/wikiView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/studarea.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/grunt.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/router.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/grunt.txt",
+		"/C/Users/Akka/Desktop/Studarea_Front/testGrunt/grunt.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Models/model.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/contactView.js",
+		"/C/Users/Akka/Desktop/Studarea_Front/app/Views/aboutView.js",
+		"/C/Users/Akka/Desktop/TrainingWeek/chinemp3/mp3/mp3/Playlist.xml",
+		"/C/Users/Akka/Desktop/TrainingWeek/chinemp3/mp3/Playlist.xml",
+		"/C/Users/Akka/Desktop/Cube.cpp",
+		"/C/Users/Akka/Desktop/ComputerGraphics1/CGraphics1/IL/config.h",
+		"/C/Users/Akka/Desktop/ComputerGraphics1/CGraphics1/IL/ilut.h",
+		"/C/Users/Akka/Desktop/main.cpp",
+		"/C/Users/Akka/Desktop/Studarea_Front/css/form.css",
+		"/C/Users/Akka/Desktop/BMPLoader.h",
+		"/C/Users/Akka/Desktop/TrainingWeek/chinemp3/mp3/mp3/testPlaylist.xml",
+		"/C/Users/Akka/Desktop/chinemp3/.gitignore",
+		"/C/Users/Akka/Desktop/Studarea_Front/pub.html",
+		"/C/Dev/alt/web/js/modules/controllers/DDLController.js",
+		"/C/Dev/alt/web/js/modules/controllers/IndexController.js",
+		"/C/Users/Akka/Desktop/TodoMvc/app/router.js",
+		"/C/Users/Akka/Desktop/TodoMvc/css/layout.css",
+		"/C/Users/Akka/Desktop/TodoMvc/index.html",
+		"/C/Users/Akka/Desktop/TodoMvc/app/view.js",
+		"/C/Dev/Training/myChat/myChat/main.c",
+		"/C/Dev/alt/tests/main.cpp",
+		"/C/Dev/alt/tests/ThreadPoolTest.hpp",
+		"/C/Dev/alt/tests/environment/fireup.bat"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"article",
+			"PointsOnly",
+			"yRotated",
+			"ChangeY",
+			"NumIndices",
+			"Indices",
+			"IndexVect",
+			"NumVertices",
+			"Vertices",
+			"</a>",
+			"<a",
+			"</tr>",
+			"<tr>",
+			"</td>",
+			"<td>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_pointsOnly",
+			"_yRotated",
+			"_changeY",
+			"_numIndices",
+			"_indices",
+			"_indexVect",
+			"_numVertices",
+			"_vertices",
+			"\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 2086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1903,
+								1903
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/registerPost.html",
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dbPopulate.php",
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/users.html",
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/register.html",
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/layout.html",
+					"settings":
+					{
+						"buffer_size": 882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/index.html",
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/hello.html",
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 86.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 158.0,
+	"status_bar_visible": true
+}

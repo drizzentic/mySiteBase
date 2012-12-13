@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+	<form class="form-signin" action="/Novus/register" method="POST" ng-app name="myForm" >
+		<h2 class="form-signin-heading">Registration Form</h2>
+		<input type="text" class="input-block-level" placeholder="Name" name="Name" ng-model="name" required ng-minlength="3">
+		<input type="text" class="input-block-level" placeholder="Email address" name="Mail" ng-model="mail" required>
+		<input type="password" class="input-block-level" placeholder="Password" name="Password" ng-model="pass1" required ng-minlength="5">
+		<input type="password" class="input-block-level" placeholder="Password confirmation" ng-model="pass2">
+		<label ng-hide="myForm.Name.$valid" class="text-error">Name must be over 3 characters</label>
+		<label ng-hide="myForm.Mail.$valid" class="text-error">Email required</label>
+		<label ng-hide="myForm.Password.$valid" class="text-error">Password must be over 5 characters</label>
+		<label ng-hide="myForm.Password.$valid && (pass1 == pass2)" class="text-error">Passwords don't match</label>
+		<button class="btn btn-large btn-primary" type="submit" ng-show="myForm.Password.$valid && (pass1 == pass2)">Sign in</button>
+	</form>
+{% endblock %}

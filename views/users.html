@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Members</h1>
+<ul>
+    {% for user in users %}
+        <li>{{ user.Name|e }} | {{ user.Pass|e }} | {{ user.Mail|e }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
