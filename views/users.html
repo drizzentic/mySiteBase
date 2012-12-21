@@ -2,9 +2,10 @@
 
 {% block body %}
 <h1>Members</h1>
-<ul>
+<dl>
     {% for user in users %}
-        <li>{{ user.Name|e }} | {{ user.Pass|e }} | {{ user.Mail|e }}</li>
+        <dt><a href="/Novus/users/{{ user.Id|e }}">{{ user.Name|e }}</a></dt>
+        <dd>{{ user.Mail|e }}</dd>
     {% endfor %}
-</ul>
+</dl>
 {% endblock %}

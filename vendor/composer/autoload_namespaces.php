@@ -7,6 +7,8 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Twig_' => $vendorDir . '/twig/twig/lib/',
+    'Symfony\\Component\\Validator' => $vendorDir . '/symfony/validator/',
+    'Symfony\\Component\\Translation' => $vendorDir . '/symfony/translation/',
     'Symfony\\Component\\Routing\\' => $vendorDir . '/symfony/routing/',
     'Symfony\\Component\\HttpKernel\\' => $vendorDir . '/symfony/http-kernel/',
     'Symfony\\Component\\HttpFoundation\\' => $vendorDir . '/symfony/http-foundation/',
@@ -14,4 +16,7 @@ return array(
     'Symfony\\Bridge\\Twig' => $vendorDir . '/symfony/twig-bridge/',
     'Silex' => $vendorDir . '/silex/silex/src/',
     'Pimple' => $vendorDir . '/pimple/pimple/lib/',
+    'Monolog' => $vendorDir . '/monolog/monolog/src/',
+    'Doctrine\\DBAL' => $vendorDir . '/doctrine/dbal/lib/',
+    'Doctrine\\Common' => $vendorDir . '/doctrine/common/lib/',
 );

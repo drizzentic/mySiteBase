@@ -1,7 +1,11 @@
 <?php
 	// web/index.php
+	session_start();
 
 	require_once __DIR__.'/vendor/autoload.php';
+
+	use Symfony\Component\HttpFoundation\Request;
+	use Symfony\Component\HttpFoundation\Response;
 
 	$dbh;
 	try {
@@ -14,6 +18,28 @@
 
 	$app = new Silex\Application();
 
+	/** TODO : Doctrine
+	$app->register(new Silex\Provider\DoctrineServiceProvider(), array(
+		'db.options' => array(
+			'driver'   => 'pdo_sqlite',
+			'path'     => __DIR__.'/users.db',
+		),
+	));
+	*/
+
+	/**
+	*	Middlewares
+	*/
+
+	$checkLogin = function(Request $request) use ($app) {
+		if (!isset($_SESSION['user'])) {
+			return $app->redirect('/Novus/login');
+		}
+	};
+
+	/**
+	*	Controllers
+	*/
 	$app->register(new Silex\Provider\TwigServiceProvider(), array(
 		'twig.path' => __DIR__.'/views',
 	));
@@ -29,6 +55,17 @@
 		return $app['twig']->render('login.html', array(
 				'prefix' => './',
 				'title' => 'Login',
+			));
+	});
+
+	$app->get('/logout', function() use ($app) {
+		if (isset($_SESSION['user'])) {
+			unset($_SESSION['user']);
+			session_destroy();
+		}
+		return $app['twig']->render('login.html', array(
+				'prefix' => './',
+				'title' => 'Logout',
 			));
 	});
 
@@ -48,18 +85,33 @@
 			));
 	});
 
+	$app->get('/users/{id}', function($id) use ($app, $dbh) {
+		$stmt = $dbh->prepare('SELECT * FROM Users WHERE Id = :id');
+		$stmt->bindParam(':id', $id, PDO::PARAM_STR);
+		$stmt->execute();
+		$res = $stmt->fetchAll();
+		return $app['twig']->render('profile.html', array(
+				'prefix' => '../',
+				'user' => $res[0],
+				'title' => 'User Profile',
+			));
+	});
+
 	$app->get('/hello/{name}', function ($name) use ($app) {
+		if (isset($_SESSION['user'])) {
+			$name = $_SESSION['user'];
+		}
 		return $app['twig']->render('hello.html', array(
 				'prefix' => '../',
 				'title' => 'Hello',
 				'name' => $name,
 		));
-	});
+	})->before($checkLogin);
 
-	$app->post('/register', function() use ($app, $dbh) {
-		$name = $_POST['Name'];
-		$pass = $_POST['Password'];
-		$mail = $_POST['Mail'];
+	$app->post('/register', function(Request $request) use ($app, $dbh) {
+		$name = $request->get('Name');
+		$pass = $request->get('Password');
+		$mail = $request->get('Mail');
 		$stmt = $dbh->prepare('INSERT INTO Users (Name, Pass, Mail, Active) VALUES (:name, :pass, :mail, :active)');
 		$stmt->bindParam(':name', $name, PDO::PARAM_STR);
 		$stmt->bindParam(':pass', $pass, PDO::PARAM_STR);
@@ -72,6 +124,24 @@
 				'name' => $name,
 				'pass' => $pass,
 				'mail' => $mail,
+		));
+	});
+
+	$app->post('/login', function(Request $request) use ($app, $dbh) {
+		$id = $request->get('Identifier');
+		$pass = $request->get('Password');
+		$stmt = $dbh->prepare('SELECT * FROM Users WHERE (Name = :id OR Mail = :id) AND Pass = :pass');
+		$stmt->bindParam(':id', $id, PDO::PARAM_STR);
+		$stmt->bindParam(':pass', $pass, PDO::PARAM_STR);
+		$stmt->execute();
+		$res = $stmt->fetchAll();
+		if (count($res) > 0) {
+			$_SESSION['user'] = $res[0][1];
+		}
+		return $app['twig']->render('loginPost.html', array(
+				'title' => 'Registration',
+				'prefix' => './',
+				'result' => $res,
 		));
 	});
 
